@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./build/style.css" rel="stylesheet" type="text/css" />
+    <title>GMAIL CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <div><img class="header-icon" src="images/burger-menu.png" /></div>
+            <div><img class="header-icon lg" src="images/gmail-icon.png" /></div>
+            <div>
+                <p>Gmail</p>
+            </div>
+        </div>
+        <div class="middle">
+            <input id="search" type="text" placeholder="Search mail" />
+            <button class="btn_search">Search</button>
+        </div>
+        <div class="right">
+            <img class="header-icon" src="images/question-icon.png" />
+            <img class="header-icon" src="images/settings-icon.png" />
+            <img class="header-icon" src="images/apps-icon.png" />
+            <img class="header-icon lg" src="images/user-icon.png" />
+        </div>
+    </header>
+    <aside class="sidebar">
+        <div class="compose"><img src="./images/plus-icon.png" />Compose</div>
+        <div class="menu">
+            <div class="inbox left-tag">
+                <img src="./images/inbox-icon.png" />
+                <span>Inbox</span>
+            </div>
+            <div class="starred left-tag">
+                <img src="./images/star-icon.png" />
+                <span>Starred</span>
+            </div>
+            <div class="trash left-tag">
+                <img src="./images/trash-icon.png" />
+                <span>Trash</span>
+            </div>
+            <div class="spam left-tag">
+                <img src="images/spam-icon.png" />
+                <span>Spam</span>
+            </div>
+        </div>
+    </aside>
+    <main class="main-content">
+        <div class="page-info">
+            <span class="pageinfo"></span>
+            <button id="prev">prev</button>
+            <button id="next">next</button>
+        </div>
+        <ul class="email-list">
+            <!-- <li class="email-item">
+                <input type="checkbox" name ='check-1' id="'1">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-arrow-right"></i>
+                <span>Cash App</span>
+                <span class="email-message">A direct debit</span>
+                <span>9:10am</span>
+            </li> -->
+        </ul>
+    </main>
+    <!-- <aside class="'aside-right">
+    <footer>Gmail Project. All rights reserved</footer> -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
