@@ -76,3 +76,21 @@ search.addEventListener("click", function(){
     createLi (filteredData) 
 })
 })
+
+const mapBtn = document.getElementById("map")
+mapBtn.addEventListener("click", function initMap() {
+  var uluru = {lat: -25.363, lng: 131.044};
+  var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: uluru
+        });
+        var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+        });
+ }) 
+async function FetchApi(){
+ const Mymap = (`https://maps.googleapis.com/maps/api/js?key=AIzaSyD8PT1WAUN6xCkft1DfaFmrkzSZYWBFqCk`)
+} 
+
+initMap()
